@@ -91,6 +91,12 @@ If you are using Linux and want to package the app for Windows, run this instead
 pnpm run tauri build --runner cargo-xwin --target x86_64-pc-windows-msvc
 ```
 
+For Linux AppImage target, you need to add `NO_STRIP=true` as below.
+
+```sh
+NO_STRIP=true pnpm tauri build
+```
+
 ## Project status
 
 The author does not expect this project will be massively used. So, the maintenance only limited to

@@ -36,6 +36,20 @@
 			"icons/icon.icns",
 			"icons/icon.ico"
 		],
+		"linux": {
+			"appimage": {
+				"bundleMediaFramework": false,
+				"files": { "/usr/lib/libopenblas.so": "libopenblas.so" }
+			},
+			"deb": {
+				"depends": ["libopenblas0"]
+			},
+			"rpm": {
+				"epoch": 1,
+				"release": "1.0.0",
+				"depends": ["openblas"]
+			}
+		},
 		"windows": {
 			"webviewInstallMode": {
 				"type": "embedBootstrapper"
