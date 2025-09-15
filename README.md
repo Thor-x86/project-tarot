@@ -3,7 +3,7 @@
 Simple implementation of Long-Short Term Memory (LSTM) neural layer with Graphical User Interface
 (GUI).
 
-![Screenshot of Project::Tarot](resource/screenshot.png)
+<video src="resource/demo.mp4" width="720" height="480" poster="resource/screenshot.png"></video>
 
 > DISCLAIMER: Purpose of this app is to demonstrate author's learning process. This app CANNOT
 > guarantee prediction accuracy nor provide any warranty. Do it on your own risk.
